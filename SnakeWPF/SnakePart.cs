@@ -9,7 +9,7 @@ namespace SnakeWPF
 {
     public class SnakePart
     {
-        public UIElement UiElement { get; set; }
+        public UIElement? UiElement { get; set; }
 
         public Point Position { get; set; }
 
